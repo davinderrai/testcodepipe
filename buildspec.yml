@@ -18,13 +18,12 @@ phases:
       
   post_build:
     commands:
-      - mv build/**/* ./
       - mv build/* ./
       - rm -fr build
       
 artifacts:
   files:
-    - 'build/**/*'
+    - '**/*'
 cache:
   paths:
     - './node_modules/**/*'
