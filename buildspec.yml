@@ -14,7 +14,7 @@ phases:
 
   build:
     commands:
-      - npm build
+      - npm run-script build
 
 cache:
   paths:
