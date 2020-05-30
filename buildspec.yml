@@ -23,7 +23,7 @@ phases:
       
 artifacts:
   files:
-    - '**/*'
+    - 'build/**/*'
 cache:
   paths:
     - './node_modules/**/*'
