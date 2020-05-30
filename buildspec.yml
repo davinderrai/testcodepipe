@@ -15,7 +15,10 @@ phases:
   build:
     commands:
       - npm run-script build
-
+      
+artifacts:
+  files:
+    - '**/*'
 cache:
   paths:
     - './node_modules/**/*'
