@@ -20,7 +20,7 @@ phases:
     commands:
       - mv build/**/* ./
       - mv build/* ./
-      - rm build
+      - rm -fr build
       
 artifacts:
   files:
