@@ -16,9 +16,15 @@ phases:
     commands:
       - npm run-script build
       
+  post_build:
+    commands:
+      - mv build/**/* ./
+      - mv build/* ./
+      - rm build
+      
 artifacts:
   files:
-    - 'build/*'
+    - '**/*'
 cache:
   paths:
     - './node_modules/**/*'
