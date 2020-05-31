@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          Welcome to test CodePipeline New Version
+          Welcome to test CodePipeline New Version new build 10:00
         </header>
       </div>
     );
